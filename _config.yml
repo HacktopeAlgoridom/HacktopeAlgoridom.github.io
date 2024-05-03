@@ -1,0 +1,75 @@
+title: h4ckt0p34lg0r1d0m
+author:
+  name: h4ckt0p3
+#  email: vzorkydezinfo@gmail.com
+#email: vzorkydezinfo@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to H4ckt0p34lg0r1d0m! 
+  👋 I'm dedicated to fighting disinformation with data science and activism. What I Do: 
+  🔍 Data Alchemist: Uncover truth through data-driven decisions. 
+  🔒 Backend Explorer: Fortify systems against attacks. 
+  💻 Code Maestro: Deploy applications with accurate information. 
+  
+  My Projects: TruthSeeker: Analyzing and Debunking Fake News HacktivistToolkit: 
+  Empowering Activists TransparencyGuardian: Ensuring Data Integrity 
+  
+  Let's Connect: Reach out for collaboration and discussions. 
+  
+  Join the Movement! Fight disinformation and build a more informed world. 
+  
+  🚀 Let's innovate and fight the good fight! 🚀
+  
+
+baseurl: "/HacktopeAlgoridom.github.io/" # the subpath of your site, e.g. /blog
+url: "https://HacktopeAlgoridom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: HacktopeAlgoridom.github.io
+twitter_username: h4ckt0p3
+github_username:  HacktopeAlgoridom
+
+# Build settings
+theme: minima
+
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - about.md
+
+show_excerpts: false
+
+logins:
+  - { platform: confluent, title: "confluent",    user_url: "https://github.com/HacktopeAlgoridom" }
+  - { platform: neo4j, title: "neo4j",        user_url: "https://github.com/HacktopeAlgoridom" }
+
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: auto
+  date_format: "%b-%d-%Y"
+  social_links:
+  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+    - { platform: github,         user_url: "https://github.com/HacktopeAlgoridom" }
+  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+    - { platform: x,              user_url: "https://x.com/h4ckt0p3" }
+  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
